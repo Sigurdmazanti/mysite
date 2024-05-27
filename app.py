@@ -1,8 +1,3 @@
-#########################
-
-# https://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@github.com/Sigurdmazanti/mysite.git
-
-
 from bottle import default_app, get, post, run
 import git
  
@@ -18,7 +13,7 @@ def git_update():
 ##############################
 @get("/")
 def _():
-  return "Three"
+  return "tre"
  
 ##############################
 try:
